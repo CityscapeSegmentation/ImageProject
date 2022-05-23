@@ -1,8 +1,9 @@
 
+import tensorflow as tf
 import streamlit as st
 import pandas as pd
 import altair as alt
-import keras
+import tf.keras as keras
 from PIL import Image
 import numpy as np
 from keras.utils.vis_utils import plot_model
